@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95fb39de2dd39945840ebe471fa3f0a, type: 3}
+  m_Name: PopFixMakeup
+  m_EditorClassIdentifier: 
+  cardName: Fix Makeup
+  cardDescription: Remove 50 corruption from Jacklyn and heal 1 HP per 10 corruption
+    lost.
+  cardCorruptionPassDescription: 
+  cardCorruptionFailDescription: 
+  cardFlavor: 
+  cardCharacter: 3
+  cardColor: {r: 1, g: 0.9071804, b: 0, a: 1}
+  exiled: 0
+  bossCard: 0
+  bossCorTargets: 0
+  cardFront: {fileID: 21300000, guid: 9939ec1b2eb7316428ad578c39386c3d, type: 3}
+  cardBack: {fileID: 21300000, guid: 9939ec1b2eb7316428ad578c39386c3d, type: 3}
+  cardIcons:
+  - {fileID: 21300000, guid: 4aed771d90ac0cc45b92655cefde65b1, type: 3}
+  - {fileID: 21300000, guid: aa2b14de17da71a47a22b6083db4260b, type: 3}
+  - {fileID: 21300000, guid: e824ea9f37185624f9b8919a2776b3f6, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  cardAnimation: Attack
+  cardEffects:
+  - effectType: 6
+    cardEffect:
+      target: 0
+    afflictEffect:
+      target: 0
+      statusEffect: 0
+    attackEffect:
+      target: 0
+      dieNumber: 0
+      dieSize: 0
+      dieBonus: 0
+    cleanseEffect:
+      target: 0
+    drawEffect:
+      target: 0
+      cardsToDraw: 0
+      fromDiscard: 0
+      toDiscard: 0
+    insertEffect:
+      target: 0
+      toInsert: {fileID: 0}
+    modifyEffect:
+      target: 1
+      modifierEffect: 3
+      modifierFactor: 1
+      modifierPerFactor: 1
+      perFactorValue: 10
+      effectIndex: 1
+    reshuffleEffect:
+      target: 0
+    solveEffect:
+      target: 0
+      configuration: 0
+    summonEffect:
+      target: 0
+      Boss: 0
+    vitalityEffect:
+      target: 0
+      vitalityType: 0
+      value: 0
+  - effectType: 9
+    cardEffect:
+      target: 0
+    afflictEffect:
+      target: 0
+      statusEffect: 0
+    attackEffect:
+      target: 0
+      dieNumber: 0
+      dieSize: 0
+      dieBonus: 0
+    cleanseEffect:
+      target: 0
+    drawEffect:
+      target: 0
+      cardsToDraw: 0
+      fromDiscard: 0
+      toDiscard: 0
+    insertEffect:
+      target: 0
+      toInsert: {fileID: 0}
+    modifyEffect:
+      target: 0
+      modifierEffect: 0
+      modifierFactor: 0
+      modifierPerFactor: 0
+      perFactorValue: 0
+      effectIndex: 0
+    reshuffleEffect:
+      target: 0
+    solveEffect:
+      target: 0
+      configuration: 0
+    summonEffect:
+      target: 0
+      Boss: 0
+    vitalityEffect:
+      target: 1
+      vitalityType: 0
+      value: 10
+  - effectType: 9
+    cardEffect:
+      target: 0
+    afflictEffect:
+      target: 0
+      statusEffect: 0
+    attackEffect:
+      target: 0
+      dieNumber: 0
+      dieSize: 0
+      dieBonus: 0
+    cleanseEffect:
+      target: 0
+    drawEffect:
+      target: 0
+      cardsToDraw: 0
+      fromDiscard: 0
+      toDiscard: 0
+    insertEffect:
+      target: 0
+      toInsert: {fileID: 0}
+    modifyEffect:
+      target: 0
+      modifierEffect: 0
+      modifierFactor: 0
+      modifierPerFactor: 0
+      perFactorValue: 0
+      effectIndex: 0
+    reshuffleEffect:
+      target: 0
+    solveEffect:
+      target: 0
+      configuration: 0
+    summonEffect:
+      target: 0
+      Boss: 0
+    vitalityEffect:
+      target: 1
+      vitalityType: 1
+      value: -50
+  cardCorPass: []
+  cardCorFail: []

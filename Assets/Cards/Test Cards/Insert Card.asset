@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95fb39de2dd39945840ebe471fa3f0a, type: 3}
+  m_Name: Insert Card
+  m_EditorClassIdentifier: 
+  cardName: Insert
+  cardDescription: 
+  cardFlavor: 
+  cardCharacter: 0
+  exiled: 0
+  cardFront: {fileID: 0}
+  cardBack: {fileID: 0}
+  cardEffects:
+  - effectType: 5
+    cardEffect:
+      target: 0
+    afflictEffect:
+      target: 0
+      statusEffect: 0
+    attackEffect:
+      target: 0
+      dieNumber: 0
+      dieSize: 0
+      dieBonus: 0
+    cleanseEffect:
+      target: 0
+    drawEffect:
+      target: 0
+      cardsToDraw: 0
+      fromDiscard: 0
+      toDiscard: 0
+    insertEffect:
+      target: 1
+      toInsert: {fileID: 11400000, guid: 0edbb14829e2a6b4c8677369a4543303, type: 2}
+    modifyEffect:
+      target: 0
+      modifierEffect: 0
+      modifierFactor: 0
+      modifierPerFactor: 0
+      perFactorValue: 0
+      effectIndex: 0
+    reshuffleEffect:
+      target: 0
+    summonEffect:
+      target: 0
+    vitalityEffect:
+      target: 0
+      vitalityType: 0
+      value: 0
+  cardCorPass: []
+  cardCorFail: []

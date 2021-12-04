@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05023242dcefaa84ea20fd4b09214819, type: 3}
+  m_Name: Jock
+  m_EditorClassIdentifier: 
+  characterType: 1
+  name: Johny Bigman
+  health: 25
+  currentHealth: 25
+  corruption: 0
+  currentCorruption: 0
+  avatar: {fileID: 21300000, guid: 9f28c00418577a940be678bda8fd619a, type: 3}
+  thumbtack: {fileID: 21300000, guid: 0dbf5b5894a743b4986074f393d468d3, type: 3}
+  weapon: {fileID: 21300000, guid: dbb82eb82ff1e714d84b87680e62c187, type: 3}
+  color: {r: 1, g: 0, b: 0, a: 1}
+  cardBack: {fileID: 21300000, guid: 021df51dac0060a438b7b955f5ccb15b, type: 3}
+  cards:
+  - {fileID: 11400000, guid: 81478fe56cd871242bda1d0f8e5911f1, type: 2}
+  - {fileID: 11400000, guid: 730a503446941524bb3a79a6f612ea98, type: 2}
+  - {fileID: 11400000, guid: 4fac6d2b9aa7d2b4c985e1bf52784b5c, type: 2}
+  - {fileID: 11400000, guid: ce8b5744cb98d9c48ae170526dc9d10b, type: 2}
+  basicAttack:
+    dieNum: 1
+    dieSize: 6
+    bonus: 0

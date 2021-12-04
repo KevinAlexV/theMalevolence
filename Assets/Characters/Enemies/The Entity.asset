@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05023242dcefaa84ea20fd4b09214819, type: 3}
+  m_Name: The Entity
+  m_EditorClassIdentifier: 
+  characterType: 9
+  name: The Entity
+  health: 200
+  currentHealth: 200
+  corruption: 0
+  currentCorruption: 0
+  avatar: {fileID: 21300000, guid: 40a37e2cc3b20bd4787a051c2dfe74d4, type: 3}
+  thumbtack: {fileID: 21300000, guid: 1740b5570dd6b40469aeca539ffda540, type: 3}
+  weapon: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 1}
+  cardBack: {fileID: 21300000, guid: 8153eb263b412b54cbc81cfbf07c4677, type: 3}
+  cards:
+  - {fileID: 11400000, guid: 5e63f0a3ff4615a41bba7f824b509a1f, type: 2}
+  - {fileID: 11400000, guid: ee2e945a1ccc2b74c802a7f949d59bb8, type: 2}
+  - {fileID: 11400000, guid: 16d57b46b8ea7144e92f78d885efd083, type: 2}
+  - {fileID: 11400000, guid: a8a8a52a4871f3e4999ae81b10938fd6, type: 2}
+  - {fileID: 11400000, guid: 5ff35a0d76f1071498834af00d8f4639, type: 2}
+  - {fileID: 11400000, guid: 3aec1f8e1442dbb49b87877f473ed957, type: 2}
+  - {fileID: 11400000, guid: cff87089547931545967c54eb054abaf, type: 2}
+  - {fileID: 11400000, guid: 712f982969cd5e543a4dfd2edc1ad7be, type: 2}
+  - {fileID: 11400000, guid: 05af26e14858d094abc91db67648b992, type: 2}
+  basicAttack:
+    dieNum: 1
+    dieSize: 6
+    bonus: 0

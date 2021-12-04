@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05023242dcefaa84ea20fd4b09214819, type: 3}
+  m_Name: Goth
+  m_EditorClassIdentifier: 
+  characterType: 0
+  name: Charles Blackwell
+  health: 20
+  currentHealth: 20
+  corruption: 0
+  currentCorruption: 0
+  avatar: {fileID: 21300000, guid: ecce0cac5dd89df4b97e15a75e1e7683, type: 3}
+  thumbtack: {fileID: 21300000, guid: 1250dac85f47ee643bd7a6cac461e40d, type: 3}
+  weapon: {fileID: 21300000, guid: f55d72747285f704c926c0771e8daf97, type: 3}
+  color: {r: 0.33962262, g: 0.08810965, b: 0.29201588, a: 1}
+  cardBack: {fileID: 21300000, guid: 89cc7b332b4f30d47b00b8a7585b5823, type: 3}
+  cards:
+  - {fileID: 11400000, guid: 58d03a73e1b7a844f879c7a99755a9af, type: 2}
+  - {fileID: 11400000, guid: dc6cbd1acb0343b499102d01e82733da, type: 2}
+  - {fileID: 11400000, guid: ab5c02d9214861648b0da2b4d3ca5db7, type: 2}
+  - {fileID: 11400000, guid: 69e4299237ded04469afbd17f357c00e, type: 2}
+  basicAttack:
+    dieNum: 1
+    dieSize: 6
+    bonus: 0

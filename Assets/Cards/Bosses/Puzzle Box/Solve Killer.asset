@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95fb39de2dd39945840ebe471fa3f0a, type: 3}
+  m_Name: Solve Killer
+  m_EditorClassIdentifier: 
+  cardName: Solve Killer
+  cardDescription: Solves the Killer configuration of the Puzzle Box, if it is in
+    the correct configuration.
+  cardCorruptionPassDescription: 
+  cardCorruptionFailDescription: 
+  cardFlavor: 
+  cardCharacter: 1
+  cardColor: {r: 1, g: 0, b: 0, a: 1}
+  exiled: 1
+  bossCard: 0
+  bossCorTargets: 0
+  cardFront: {fileID: 21300000, guid: 71ecd78f1cf88654fafc96390ea661bb, type: 3}
+  cardBack: {fileID: 21300000, guid: 71ecd78f1cf88654fafc96390ea661bb, type: 3}
+  cardIcons:
+  - {fileID: 21300000, guid: 41b6c8fa121c3b24e9bf92abc70312a2, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  cardAnimation: 
+  cardEffects:
+  - effectType: 10
+    cardEffect:
+      target: 0
+    afflictEffect:
+      target: 0
+      statusEffect: 0
+    attackEffect:
+      target: 0
+      dieNumber: 0
+      dieSize: 0
+      dieBonus: 0
+    cleanseEffect:
+      target: 0
+    drawEffect:
+      target: 0
+      cardsToDraw: 0
+      fromDiscard: 0
+      toDiscard: 0
+    insertEffect:
+      target: 0
+      toInsert: {fileID: 0}
+    modifyEffect:
+      target: 0
+      modifierEffect: 0
+      modifierFactor: 0
+      modifierPerFactor: 0
+      perFactorValue: 0
+      effectIndex: 0
+    reshuffleEffect:
+      target: 0
+    solveEffect:
+      target: 5
+      configuration: 3
+    summonEffect:
+      target: 0
+      Boss: 0
+    vitalityEffect:
+      target: 0
+      vitalityType: 0
+      value: 0
+  cardCorPass: []
+  cardCorFail: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95fb39de2dd39945840ebe471fa3f0a, type: 3}
+  m_Name: Slam and Break
+  m_EditorClassIdentifier: 
+  cardName: Slam and Break
+  cardDescription: The party member with the highest HP takes 3-18 damage.
+  cardCorruptionPassDescription: Nothing
+  cardCorruptionFailDescription: Take 1-6 damage
+  cardFlavor: 
+  cardCharacter: 4
+  cardColor: {r: 0, g: 0, b: 0, a: 1}
+  exiled: 0
+  bossCard: 0
+  bossCorTargets: 0
+  cardFront: {fileID: 0}
+  cardBack: {fileID: 0}
+  cardIcons:
+  - {fileID: 21300000, guid: 2d8acbb4163361541b3a6f422436a5e8, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  cardAnimation: 
+  cardEffects: []
+  cardCorPass: []
+  cardCorFail: []
